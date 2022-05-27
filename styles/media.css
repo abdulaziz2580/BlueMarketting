@@ -1,0 +1,116 @@
+@media(max-width:1300px) {
+    .sidebar{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        z-index: 99;
+    }
+    .sidebar:hover{
+        width: 100%;
+    }
+    .sidebar-list{
+        display: flex;
+    }
+    .main-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-card{
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    .right-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .info-title{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .info-left{
+        max-width: 800px;
+        width: 100%;
+    }
+    .main-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main-card{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}
+@media(max-width:800px){
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-description{
+        max-width: 500px;
+        width: 100%;
+    }
+    .footer-title{
+        display: flex;
+        text-align: center;
+    }
+    .sidebar{
+        overflow: hidden;
+        height:80px;
+    }
+    .sidebar:hover{
+        width: 100%;
+        height: 440px;
+    }
+    .sidebar-list{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .sidebar-logo{
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:530px) {
+    .footer-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footer-tel{
+        line-height: 15px;
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:450px){
+    .header-content{
+        margin-top: 100px;
+        padding-left: 10px;
+    }
+    .header-description{
+        padding-right: 15px;
+
+    }
+    .footer-mail{
+        line-height: 13px;
+        font-size: 10px;
+    }
+    .info-description{
+        margin-right: 20px;
+    }
+}
+@media(max-width:330px){
+    .sidebar:hover{
+        width: 100%;
+        height: 550px;
+    }
+}
